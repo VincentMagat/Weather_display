@@ -4,7 +4,7 @@ import pyowm
 import time
 import subprocess
 import threading
-key = "34043b8ee364abe2712f9f04adc50c70"
+key = ""
 lcd = LCD(bus=1, addr= 39, cols= 16, rows=2)
 cityname = None
 lock = threading.Lock()
